@@ -1,0 +1,150 @@
+ body{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   box-sizing: border-box;
+   margin:0;
+   padding: 0;
+   background-color: aliceblue;
+ }
+ header{     
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   display: flex;
+     padding: 30px 25px 10px 25px;
+     justify-content: space-between;
+     background-color: black;
+     align-items: center;
+     color: whitesmoke;
+     
+ } 
+ 
+.first{
+  transition: all 0.3S ease 0s;
+  display: inline-block;
+  list-style:none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100px;
+  margin:auto;
+  cursor: pointer;
+}
+.first:hover{ 
+  font-size: large;
+  color:#0008a9;
+  
+}
+
+.main li{
+  
+  width: 500px;
+  list-style: none;
+  margin:auto;
+  
+  
+}
+.main{
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  margin-top: -15px;
+}
+.main ul{
+  display: flex;
+  flex-direction: row;
+}
+.main_cart{
+  background-color: black;
+  color: whitesmoke;
+}
+.cart{
+  border: 1px outset gray;
+}
+.catalogue{
+  margin: -5px 50px;
+  padding: -5px 50px;
+}
+.catalogue ul{  
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.catalogue li{
+  width: 500px;
+  list-style: none;
+}
+.f_pic{
+  background-image: url("images/speaker3\ final.jpg");
+  height: 475px;
+  margin: -5px 125px ;
+  background-repeat: no-repeat;
+
+      
+}
+.f_pic  ul{
+  display: flex;
+  flex-direction: row;
+  
+}
+.f_pic  li{
+  margin-top: 100px;
+  margin-left: 50px;
+  list-style: none;
+}
+.s_pic{
+  background-image: url("images/spreaker2.jpg");
+  height: 400px;
+  margin: -60px 125px;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+}
+.s_pic li{
+  margin-top: 100px;
+  margin-left: 50px;
+  list-style: none;
+}
+.s_pic ul{
+  display: flex;
+  flex-direction: row;
+}
+.t_pic li{
+display: inline-block;
+width: 507px;
+
+}
+.t_pic li:last-child{
+  background-color: rgb(223, 219, 223);
+  text-align: center;
+  margin-top: -194px;
+  margin-left: 35px;
+  vertical-align: middle;
+  height: 200px;
+}
+
+.t_pic{
+  height: 350px;
+  
+  margin: -100px 45px;
+  
+  background-repeat: no-repeat;
+}
+.end{
+  margin: -100px 45px ;
+}
+.end ul{
+  display: flex;
+  flex-direction: row;
+}
+.end li{
+  list-style: none;
+  width: 500px;
+  margin:auto
+}
+.end li:first-child{
+ margin-left: 40px;
+ }
+ .end li:last-child{
+   margin-right: 213px;
+ }
+
+
+
+
+
