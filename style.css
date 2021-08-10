@@ -132,6 +132,7 @@ width: 507px;
   display: flex;
   flex-direction: row;
 }
+
 .end li{
   list-style: none;
   width: 500px;
@@ -142,6 +143,7 @@ width: 507px;
  }
  .end li:last-child{
    margin-right: 213px;
+ 
  }
 
 
